@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FBF8E9"
+    tools:context=".MainActivity" >
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="312dp"
+        android:layout_height="302dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.047"
+        app:srcCompat="@drawable/polleriabr" />
+
+    <LinearLayout
+        android:layout_width="401dp"
+        android:layout_height="506dp"
+        android:layout_marginTop="332dp"
+        android:background="@drawable/borde"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="399dp"
+            android:orientation="vertical">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/constraintLayout"
+                android:layout_width="match_parent"
+                android:layout_height="102dp"
+                app:layout_constraintBottom_toTopOf="@+id/constraintLayout2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.5">
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="141dp"
+                    android:layout_height="42dp"
+                    android:text="¡Bienvenido!"
+                    android:textColor="#000000"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.544"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/constraintLayout2"
+                android:layout_width="match_parent"
+                android:layout_height="137dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/constraintLayout"
+                app:layout_constraintVertical_bias="0.5">
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="269dp"
+                    android:layout_height="35dp"
+                    android:background="@drawable/borde2"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.503"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.029"
+                    tools:background="@drawable/borde2" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="269dp"
+                    android:layout_height="35dp"
+                    android:background="@drawable/borde2"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.503"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.47" />
+
+                <EditText
+                    android:id="@+id/edt_email_login"
+                    android:layout_width="237dp"
+                    android:layout_height="20dp"
+                    android:background="@android:color/transparent"
+                    android:hint="email@email.com"
+                    android:textSize="14sp"
+                    app:layout_constraintBottom_toBottomOf="@+id/textView3"
+                    app:layout_constraintEnd_toEndOf="@+id/textView3"
+                    app:layout_constraintStart_toStartOf="@+id/textView3"
+                    app:layout_constraintTop_toTopOf="@+id/textView3" />
+
+                <EditText
+                    android:id="@+id/textView6"
+                    android:layout_width="237dp"
+                    android:layout_height="20dp"
+                    android:background="@android:color/transparent"
+                    android:hint="Contraseña"
+                    android:textSize="14sp"
+                    app:layout_constraintBottom_toBottomOf="@+id/textView4"
+                    app:layout_constraintEnd_toEndOf="@+id/textView4"
+                    app:layout_constraintStart_toStartOf="@+id/textView4"
+                    app:layout_constraintTop_toTopOf="@+id/textView4" />
+
+                <RelativeLayout
+                    android:id="@+id/button2"
+                    android:layout_width="252dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:background="@drawable/button"
+                    android:onClick="Ingresar"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.85">
+
+                    <TextView
+                        android:id="@+id/iniciar_ses"
+                        android:layout_width="63dp"
+                        android:layout_height="14dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="98dp"
+                        android:layout_marginTop="9dp"
+                        android:layout_marginEnd="91dp"
+                        android:layout_marginBottom="7dp"
+                        android:gravity="center_vertical"
+                        android:lineSpacingExtra="2sp"
+                        android:text="@string/iniciar_ses"
+                        android:textAppearance="@style/iniciar_ses" />
+                </RelativeLayout>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/constraintLayout2"
+                app:layout_constraintVertical_bias="0.5">
+
+                <View
+                    android:id="@+id/divider"
+                    android:layout_width="278dp"
+                    android:layout_height="1dp"
+                    android:background="#E5CCCC"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.1" />
+
+                <TextView
+                    android:id="@+id/no_tienes_u"
+                    android:layout_width="312dp"
+                    android:layout_height="15dp"
+                    android:gravity="center_horizontal|top"
+                    android:lineSpacingExtra="3sp"
+                    android:onClick="Registrar"
+                    android:text="@string/no_tienes_u"
+                    android:textAppearance="@style/no_tienes_u"
+                    android:translationY="-1.45sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.234" />
+                <!--
+                Font family: Inter
+                Line height: 15sp
+                (identical to box height)
+                translationY compensates for the line height adjustment of text
+                -->
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_perfil">
+
+    <fragment
+        android:id="@+id/nav_perfil"
+        android:name="com.example.polleriabrasaroja.ui.home.HomeFragment"
+        android:label="@string/menu_perfil"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_reservar"
+        android:name="com.example.polleriabrasaroja.ui.gallery.GalleryFragment"
+        android:label="@string/menu_reservar"
+        tools:layout="@layout/fragment_gallery" >
+        <action
+            android:id="@+id/action_nav_reservar_to_nav_reservar_2"
+            app:destination="@id/nav_reservar_2" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_historial"
+        android:name="com.example.polleriabrasaroja.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_historial"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_promociones"
+        android:name="com.example.polleriabrasaroja.Promociones"
+        android:label="fragment_promociones"
+        tools:layout="@layout/fragment_promociones" />
+    <fragment
+        android:id="@+id/nav_reservar_2"
+        android:name="com.example.polleriabrasaroja.nav_reservar_2"
+        android:label="fragment_nav_reservar_2"
+        tools:layout="@layout/fragment_nav_reservar_2" >
+        <action
+            android:id="@+id/action_nav_reservar_2_to_nav_reserva_3"
+            app:destination="@id/nav_reserva_3" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_reserva_3"
+        android:name="com.example.polleriabrasaroja.nav_reserva_3"
+        android:label="fragment_nav_reserva_3"
+        tools:layout="@layout/fragment_nav_reserva_3" >
+        <action
+            android:id="@+id/action_nav_reserva_3_to_nav_perfil"
+            app:destination="@id/nav_perfil" />
+    </fragment>
+</navigation>

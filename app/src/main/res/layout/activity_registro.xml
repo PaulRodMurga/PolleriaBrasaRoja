@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Registro">
+
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="429dp"
+        android:layout_height="70dp"
+        android:layout_alignParentLeft="true"
+        android:background="#DE1515"
+        android:clipToOutline="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <TextView
+            android:id="@+id/registra_tu"
+            android:layout_width="232dp"
+            android:layout_height="27dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="112dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginEnd="84dp"
+            android:layout_marginBottom="25dp"
+            android:gravity="center_vertical"
+            android:lineSpacingExtra="5sp"
+            android:text="@string/registra_tu"
+            android:textAppearance="@style/registra_tu" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="51dp"
+            android:layout_height="48dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="26dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="352dp"
+            android:layout_marginBottom="14dp"
+            android:onClick="volver"
+            app:srcCompat="@drawable/icon1" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/avatar"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+
+        android:clipToOutline="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.125">
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="71dp"
+            android:layout_height="85dp"
+            android:width="64dp"
+            android:height="64dp"
+            android:background="@drawable/avatar"
+            android:viewportWidth="64"
+            android:viewportHeight="64"
+            app:srcCompat="@drawable/img1" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/field"
+        android:layout_width="252dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/field"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.305">
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="26dp"
+            android:layout_height="25dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="216dp"
+            android:layout_marginBottom="7dp"
+            app:srcCompat="@drawable/icon2" />
+
+        <EditText
+            android:id="@+id/edt_nombres"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="-3dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="-2dp"
+            android:ems="10"
+            android:inputType="text"
+            android:background="@android:color/transparent"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/nombres"
+        android:layout_width="43dp"
+        android:layout_height="14dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="4dp"
+        android:gravity="top"
+        android:lineSpacingExtra="2sp"
+        android:text="@string/nombres"
+        android:textAppearance="@style/nombres"
+        android:translationY="-0.95sp"
+        app:layout_constraintBottom_toTopOf="@+id/field"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.214"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <RelativeLayout
+        android:id="@+id/action"
+        android:layout_width="165dp"
+        android:layout_height="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/avatar"
+        app:layout_constraintVertical_bias="0.021">
+
+        <TextView
+            android:id="@+id/selecciona_"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal|top"
+            android:lineSpacingExtra="3sp"
+            android:text="@string/selecciona_"
+            android:textAppearance="@style/selecciona_"
+            android:translationY="-1.33sp" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="26dp"
+        android:layout_height="14dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:gravity="top"
+        android:lineSpacingExtra="2sp"
+        android:text="@string/email"
+        android:textAppearance="@style/email"
+        android:translationY="-0.95sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.205"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.368" />
+
+    <RelativeLayout
+        android:id="@+id/field2"
+        android:layout_width="252dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/field"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.403">
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="31dp"
+            android:layout_height="29dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="9dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="212dp"
+            android:layout_marginBottom="5dp"
+            app:srcCompat="@drawable/icon3" />
+
+        <EditText
+            android:id="@+id/edt_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="43dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="0dp"
+            android:ems="10"
+            android:inputType="text"
+            android:background="@android:color/transparent"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/n_mero_de_c"
+        android:layout_width="87dp"
+        android:layout_height="14dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:gravity="top"
+        android:lineSpacingExtra="2sp"
+        android:text="@string/n_mero_de_c"
+        android:textAppearance="@style/n_mero_de_c"
+        android:translationY="-0.95sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.243"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.468" />
+
+    <RelativeLayout
+        android:id="@+id/field3"
+        android:layout_width="252dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/field"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.505">
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="28dp"
+            android:layout_height="27dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="214dp"
+            android:layout_marginBottom="6dp"
+            app:srcCompat="@drawable/icon4" />
+
+        <EditText
+            android:id="@+id/edt_numero"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="43dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="0dp"
+            android:ems="10"
+            android:inputType="text"
+            android:background="@android:color/transparent"/>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/g_nero"
+        android:layout_width="35dp"
+        android:layout_height="14dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:gravity="top"
+        android:lineSpacingExtra="2sp"
+        android:text="@string/g_nero"
+        android:textAppearance="@style/g_nero"
+        android:translationY="-0.95sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.21"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.562" />
+
+    <RelativeLayout
+        android:id="@+id/field4"
+        android:layout_width="252dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/field"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.602">
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="27dp"
+            android:layout_height="26dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="7dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginEnd="218dp"
+            android:layout_marginBottom="7dp"
+            app:srcCompat="@drawable/icon5" />
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="208dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="44dp"
+            android:layout_marginTop="-1dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="1dp" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/cumplea_os"
+        android:layout_width="59dp"
+        android:layout_height="14dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:gravity="top"
+        android:lineSpacingExtra="2sp"
+        android:text="@string/cumplea_os"
+        android:textAppearance="@style/cumplea_os"
+        android:translationY="-0.95sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.224"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.658" />
+
+    <RelativeLayout
+        android:id="@+id/field6"
+        android:layout_width="252dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/field"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.701" >
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="34dp"
+            android:layout_height="30dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="212dp"
+            android:layout_marginBottom="5dp"
+            app:srcCompat="@drawable/icon6" />
+
+        <EditText
+            android:id="@+id/editTextText7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="43dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="0dp"
+            android:ems="10"
+            android:inputType="text"
+            android:background="@android:color/transparent"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/button2"
+        android:layout_width="252dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/button"
+        android:onClick="volver"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.778">
+
+        <TextView
+            android:id="@+id/registrarse"
+            android:layout_width="55dp"
+            android:layout_height="14dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="100dp"
+            android:layout_marginBottom="8dp"
+            android:gravity="center_vertical"
+            android:lineSpacingExtra="2sp"
+            android:text="@string/registrarse"
+            android:textAppearance="@style/registrarse" />
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

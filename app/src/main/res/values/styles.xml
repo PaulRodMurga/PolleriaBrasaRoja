@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="no_tienes_u">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="registra_tu">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="nombres">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="selecciona_">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#0D99FF</item>
+    </style>
+
+    <style name="email">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="n_mero_de_c">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="g_nero">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+
+    <style name="cumplea_os">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="registrarse">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="iniciar_ses">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="Nombre_U">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#0D99FF</item>
+    </style>
+
+    <style name="perfil">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="cambiar_fot">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#0D99FF</item>
+    </style>
+
+    <style name="brasapuntos">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="bp">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="guardar">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="fecha_y_hor">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="datos">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="detalle">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="selecciona_fh">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="pm">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="siguiente">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="ingrese_sus">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="la_reserva_">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="para_m_">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+    <style name="CustomRadioButton" parent="Theme.AppCompat.Light">
+        <item name="android:button">@drawable/custom_radiobutton</item>
+        <item name="android:width">24dp</item>
+        <item name="android:height">24dp</item>
+    </style>
+
+    <style name="cantidad_de">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="nombre_jane">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#828282</item>
+    </style>
+
+    <style name="detalle2">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="email_janec">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#828282</item>
+    </style>
+
+    <style name="fecha_17_05">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#828282</item>
+    </style>
+
+    <style name="hora_9_30_p">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#828282</item>
+    </style>
+
+    <style name="cantidad">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#828282</item>
+    </style>
+
+    <style name="finalizar">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="jane_cabrer">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="hora">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="fecha">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="cant">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="estado">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="estado2">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="jorge_cabre">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+</resources>

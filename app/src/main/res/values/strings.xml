@@ -1,0 +1,194 @@
+<resources>
+    <string name="app_name">Polleria Brasa Roja</string>
+    <!-- strings.xml -->
+    <string name="no_tienes_u">
+        ¿No tienes una cuenta? Registrate aquí
+    </string>
+    <!-- strings.xml -->
+    <string name="registra_tu">
+        Registra tus datos
+    </string>
+    <!-- strings.xml -->
+    <string name="nombres">
+        Nombres
+    </string>
+    <!-- strings.xml -->
+    <string name="selecciona_">
+        Selecciona foto de perfil
+    </string>
+    <!-- styles.xml -->
+    <!-- strings.xml -->
+    <string name="email">
+        Email
+    </string>
+    <!-- strings.xml -->
+    <string name="n_mero_de_c">
+        Número de celular
+    </string>
+    <!-- strings.xml -->
+    <string name="g_nero">
+        Género
+    </string>
+    <!-- strings.xml -->
+    <string name="cumplea_os">
+        Cumpleaños
+    </string>
+    <!-- strings.xml -->
+    <string name="registrarse">
+        Registrarse
+    </string>
+    <!-- strings.xml -->
+    <string name="iniciar_ses">
+        Iniciar sesión
+    </string>
+    <string name="title_activity_menu">Menu</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_perfil">Perfil</string>
+    <string name="menu_reservar">Reservar</string>
+    <string name="menu_historial">Historial</string>
+    <string name="menu_promociones">Promociones</string>
+    <string name="menu_logout">Cerrar Sesión</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="perfil">
+        Perfil
+    </string>
+    <string name="cambiar_fot">
+        Cambiar foto de perfil
+    </string>
+
+    <string name="brasapuntos">
+        Brasapuntos totales
+    </string>
+
+    <string name="bp">
+        10 bp
+    </string>
+    <string name="guardar">
+        Guardar
+    </string>
+
+    <string name="fecha_y_hor">
+        Fecha y hora
+    </string>
+
+    <string name="datos">
+        Datos
+    </string>
+
+    <string name="detalle">
+        Detalle
+    </string>
+
+    <string name="selecciona_fh">
+        Selecciona la fecha y hora de la reserva.
+    </string>
+
+    <string name="pm">
+        7:00 pm
+    </string>
+
+    <string name="pm2">
+        7:30 pm
+    </string>
+
+    <string name="pm3">
+        8:00 pm
+    </string>
+    <string name="pm4">
+        8:15 pm
+    </string>
+
+    <string name="pm5">
+        8:30 pm
+    </string>
+    <string name="pm6">
+        8:45 pm
+    </string>
+
+    <string name="pm7">
+        9:00 pm
+    </string>
+
+    <string name="pm8">
+        10:00 pm
+    </string>
+    <string name="pm9">
+        10:15 pm
+    </string>
+    <string name="siguiente">
+        Siguiente
+    </string>
+
+    <string name="ingrese_sus">
+        Ingrese sus datos
+    </string>
+    <string name="la_reserva_">
+        ¿La reserva es para usted o para un familiar?
+    </string>
+
+    <string name="para_m_">
+        Para mí
+    </string>
+    <string name="para_mi_familia">
+        Para mí familia
+    </string>
+    <string name="cantidad_de">
+        Cantidad de personas
+    </string>
+    <string name="nombre_jane">
+        Nombre: Jane Cabrera
+    </string>
+    <string name="detalle2">
+        Detalle
+    </string>
+
+    <string name="email_janec">
+        Email: janec@email.com
+    </string>
+    <string name="fecha_17_05">
+        Fecha: 17/05/2024
+    </string>
+
+    <string name="hora_9_30_p">
+        Hora: 9:30 pm
+    </string>
+
+    <string name="cantidad">
+        Cantidad de Personas: 3
+    </string>
+    <string name="finalizar">
+        Finalizar
+    </string>
+
+    <string name="jane_cabrer">
+        Jane Cabrera
+    </string>
+    <string name="hora">
+        Hora: 09:00 p.m.
+    </string>
+    <string name="fecha">
+        Fecha: 17/05/2024
+    </string>
+    <string name="cant">
+        Cant.: 3 personas
+    </string>
+    <string name="estado">
+        Estado: Activo
+    </string>
+
+    <string name="estado2">
+        Estado: Completado
+    </string>
+
+    <string name="jorge_cabre">
+        Jorge Cabrera
+    </string>
+
+</resources>

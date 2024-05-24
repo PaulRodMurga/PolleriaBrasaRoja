@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".ui.gallery.GalleryFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout3"
+        android:layout_width="396dp"
+        android:layout_height="97dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.056">
+
+        <View
+            android:id="@+id/line_4"
+            android:layout_width="280dp"
+            android:layout_height="3dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/line_4"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <View
+            android:id="@+id/ellipse_3"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/circulo"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.904"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.489" />
+
+        <View
+            android:id="@+id/ellipse_1"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/circulo"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.098"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.489" />
+
+        <View
+            android:id="@+id/ellipse_0"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/circulo2"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.098"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.489" />
+
+        <View
+            android:id="@+id/ellipse_2"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/circulo"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <TextView
+            android:id="@+id/fecha_y_hor"
+            android:layout_width="61dp"
+            android:layout_height="14dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:gravity="center_horizontal|top"
+            android:lineSpacingExtra="2sp"
+            android:text="@string/fecha_y_hor"
+            android:textAppearance="@style/fecha_y_hor"
+            android:translationY="-0.95sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.077"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.132" />
+
+        <TextView
+            android:id="@+id/datos"
+            android:layout_width="28dp"
+            android:layout_height="14dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:gravity="center_horizontal|top"
+            android:lineSpacingExtra="2sp"
+            android:text="@string/datos"
+            android:textAppearance="@style/datos"
+            android:translationY="-0.95sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.144" />
+
+        <TextView
+            android:id="@+id/detalle"
+            android:layout_width="33dp"
+            android:layout_height="14dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:gravity="center_horizontal|top"
+            android:lineSpacingExtra="2sp"
+            android:text="@string/detalle"
+            android:textAppearance="@style/detalle"
+            android:translationY="-0.95sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.873"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.144" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="395dp"
+        android:layout_height="706dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout3">
+
+        <RelativeLayout
+            android:id="@+id/customer_qu"
+            android:layout_width="373dp"
+            android:layout_height="644dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/customer_qu"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.36"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0">
+
+            <TextView
+                android:id="@+id/selecciona_"
+                android:layout_width="245dp"
+                android:layout_height="91dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="65dp"
+                android:layout_marginLeft="65dp"
+                android:layout_marginTop="21dp"
+                android:layout_marginEnd="60dp"
+                android:layout_marginBottom="576dp"
+                android:gravity="center_vertical"
+                android:lineSpacingExtra="5sp"
+                android:text="@string/selecciona_fh"
+                android:textAppearance="@style/selecciona_fh" />
+
+            <CalendarView
+                android:id="@+id/calendarView"
+                android:layout_width="229dp"
+                android:layout_height="219dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="78dp"
+                android:layout_marginTop="98dp"
+                android:layout_marginEnd="66dp"
+                android:layout_marginBottom="327dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <RelativeLayout
+                android:id="@+id/pill"
+                android:layout_width="79dp"
+                android:layout_height="32dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="57dp"
+                android:layout_marginLeft="57dp"
+                android:layout_marginTop="345dp"
+                android:layout_marginEnd="237dp"
+                android:layout_marginBottom="267dp"
+                android:background="@drawable/pill">
+
+                <TextView
+                    android:id="@+id/pm"
+                    android:layout_width="55dp"
+                    android:layout_height="20dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="9dp"
+                    android:layout_marginBottom="7dp"
+                    android:gravity="center_vertical"
+                    android:lineSpacingExtra="3sp"
+                    android:text="@string/pm"
+                    android:textAppearance="@style/pm" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/pill2"
+                android:layout_width="79dp"
+                android:layout_height="32dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="152dp"
+                android:layout_marginLeft="152dp"
+                android:layout_marginTop="345dp"
+                android:layout_marginEnd="142dp"
+                android:layout_marginBottom="267dp"
+                android:background="@drawable/pill" >
+
+                <TextView
+                    android:id="@+id/pm2"
+                    android:layout_width="55dp"
+                    android:layout_height="20dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="13dp"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginEnd="11dp"
+                    android:layout_marginBottom="6dp"
+                    android:gravity="center_vertical"
+                    android:lineSpacingExtra="3sp"
+                    android:text="@string/pm2"
+                    android:textAppearance="@style/pm" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/pill3"
+                android:layout_width="79dp"
+                android:layout_height="32dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="248dp"
+                android:layout_marginLeft="248dp"
+                android:layout_marginTop="346dp"
+                android:layout_marginEnd="46dp"
+                android:layout_marginBottom="266dp"
+                android:background="@drawable/pill" >
+
+                <TextView
+                    android:id="@+id/pm3"
+                    android:layout_width="56dp"
+                    android:layout_height="20dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginBottom="6dp"
+                    android:gravity="center_vertical"
+                    android:lineSpacingExtra="3sp"
+                    android:text="@string/pm3"
+                    android:textAppearance="@style/pm" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/pill4"
+                android:layout_width="79dp"
+                android:layout_height="32dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="58dp"
+                android:layout_marginLeft="57dp"
+                android:layout_marginTop="388dp"
+                android:layout_marginEnd="236dp"
+                android:layout_marginBottom="224dp"
+                android:background="@drawable/pill" >
+
+                <TextView
+                    android:id="@+id/pm4"
+                    android:layout_width="53dp"
+                    android:layout_height="20dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="13dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="13dp"
+                    android:layout_marginBottom="7dp"
+                    android:gravity="center_vertical"
+                    android:lineSpacingExtra="3sp"
+                    android:text="@string/pm4"
+                    android:textAppearance="@style/pm" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/pill5"
+                android:layout_width="79dp"
+                android:layout_height="32dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="154dp"
+                android:layout_marginLeft="154dp"
+                android:layout_marginTop="388dp"
+                android:layout_marginEnd="140dp"
+                android:layout_marginBottom="224dp"
+                android:background="@drawable/pill" >
+
+                <TextView
+                    android:id="@+id/pm5"
+                    android:layout_width="56dp"
+                    android:layout_height="20dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="11dp"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginEnd="12dp"
+                    android:layout_marginBottom="6dp"
+                    android:gravity="center_vertical"
+                    android:lineSpacingExtra="3sp"
+                    android:text="@string/pm5"
+                    android:textAppearance="@style/pm" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/pill6"
+                android:layout_width="79dp"
+                android:layout_height="32dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="249dp"
+                android:layout_marginTop="388dp"
+                android:background="@drawable/pill" >
+
+                <TextView
+                    android:id="@+id/pm6"
+                    android:layout_width="56dp"
+                    android:layout_height="20dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="14dp"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginBottom="6dp"
+                    android:gravity="center_vertical"
+                    android:lineSpacingExtra="3sp"
+                    android:text="@string/pm6"
+                    android:textAppearance="@style/pm" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/pill7"
+                android:layout_width="79dp"
+                android:layout_height="32dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="59dp"
+                android:layout_marginLeft="59dp"
+                android:layout_marginTop="429dp"
+                android:layout_marginEnd="235dp"
+                android:layout_marginBottom="183dp"
+                android:background="@drawable/pill" >
+
+                <TextView
+                    android:id="@+id/pm7"
+                    android:layout_width="56dp"
+                    android:layout_height="20dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="14dp"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginBottom="6dp"
+                    android:gravity="center_vertical"
+                    android:lineSpacingExtra="3sp"
+                    android:text="@string/pm7"
+                    android:textAppearance="@style/pm" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/pill8"
+                android:layout_width="79dp"
+                android:layout_height="32dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="153dp"
+                android:layout_marginLeft="153dp"
+                android:layout_marginTop="429dp"
+                android:layout_marginEnd="141dp"
+                android:layout_marginBottom="183dp"
+                android:background="@drawable/pill" >
+
+                <TextView
+                    android:id="@+id/pm8"
+                    android:layout_width="63dp"
+                    android:layout_height="20dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="7dp"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginEnd="9dp"
+                    android:layout_marginBottom="5dp"
+                    android:gravity="center_vertical"
+                    android:lineSpacingExtra="3sp"
+                    android:text="@string/pm8"
+                    android:textAppearance="@style/pm" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/pill9"
+                android:layout_width="79dp"
+                android:layout_height="32dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="251dp"
+                android:layout_marginLeft="251dp"
+                android:layout_marginTop="429dp"
+                android:layout_marginEnd="43dp"
+                android:layout_marginBottom="183dp"
+                android:background="@drawable/pill">
+
+                <TextView
+                    android:id="@+id/pm9"
+                    android:layout_width="60dp"
+                    android:layout_height="20dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginEnd="11dp"
+                    android:layout_marginBottom="6dp"
+                    android:gravity="center_vertical"
+                    android:lineSpacingExtra="3sp"
+                    android:text="@string/pm9"
+                    android:textAppearance="@style/pm" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/button1"
+                android:layout_width="150dp"
+                android:layout_height="30dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="114dp"
+                android:layout_marginLeft="114dp"
+                android:layout_marginTop="533dp"
+                android:layout_marginEnd="109dp"
+                android:layout_marginBottom="81dp"
+                android:background="@drawable/button">
+
+
+                <TextView
+                    android:id="@+id/siguiente"
+                    android:layout_width="45dp"
+                    android:layout_height="14dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="55dp"
+                    android:layout_marginTop="7dp"
+                    android:layout_marginEnd="50dp"
+                    android:layout_marginBottom="9dp"
+                    android:gravity="center_vertical"
+                    android:lineSpacingExtra="2sp"
+                    android:text="@string/siguiente"
+                    android:textAppearance="@style/siguiente" />
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

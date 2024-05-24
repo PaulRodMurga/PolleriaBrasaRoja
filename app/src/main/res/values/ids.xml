@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="ingrese_sus" type="id" />
+    <item name="la_reserva_" type="id" />
+    <item name="radioButton" type="id" />
+    <item name="radioButton2" type="id" />
+    <item name="imageView2" type="id" />
+    <item name="imageView16" type="id" />
+    <item name="imageView17" type="id" />
+    <item name="imageView18" type="id" />
+</resources>
